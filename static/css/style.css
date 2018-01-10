@@ -79,12 +79,17 @@ footer{
 	background: #fff;
 	transition: 1s;
 	border-radius: 20px;
-	color: #000;
+	color: #000	;
 }
 
 #inp-h:hover{
 	background: #45da84
 }
+
+#inp-h:focus{
+	background: #45da84
+}
+
 
 
 #btn-h{
@@ -158,6 +163,10 @@ footer{
 	background: #45da84;
 }
 
+.inp-m:focus{
+	background: #45da84;
+}
+
 
 #cdt{
 	width: 100%;
@@ -180,7 +189,7 @@ footer{
 	top: 90px;
 	z-index: 20;
 	height: 100%;
-	border: 1px solid #1b2835;
+	border: 1px solid #4caf50;
 }
 
 .d-a{
