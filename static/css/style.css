@@ -229,14 +229,14 @@ footer{
 }
 
 #errorlogin{
-	position: relative;
-	width: 400px;
+	position: fixed;
+	width: 100%;
 	background: #af4c4c;
 	height: auto;
-	float: right;
 	top: 60px;
 	left: 0px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 24px;
 	margin: 0px auto;
+	z-index: 1020;
 }
