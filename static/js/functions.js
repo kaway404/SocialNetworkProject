@@ -18,3 +18,18 @@ $(document).ready(function() {
          return false;
     });
 });
+
+$(document).ready(function() {
+    $("#login").click(function() {
+        var email = $("#email-h");
+        var emailPost = email.val();
+        var senha = $("#senha-h");
+        var senhaPost = senha.val();
+        $.post("/static/php/login.php", {email: emailPost, senha: senhaPost},
+        function(data){
+         $("#errorlogin").html(data);
+         }
+         , "html");
+         return false;
+    });
+});

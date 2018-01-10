@@ -22,7 +22,6 @@ header{
 	background: #4CAF50;
 	z-index: 100;
 	box-shadow: 1px 1px 1px rgba(8, 34, 41, 0.75);
-	display: flex;
 }
 
 header #logo{
@@ -67,7 +66,7 @@ footer{
 	margin: 0px auto;
 }
 
-#inp-h{
+.inp-h{
 	float: right;
 	position: relative;
 	right: 0;
@@ -82,17 +81,17 @@ footer{
 	color: #000	;
 }
 
-#inp-h:hover{
+.inp-h:hover{
 	background: #45da84
 }
 
-#inp-h:focus{
+.inp-h:focus{
 	background: #45da84
 }
 
 
 
-#btn-h{
+.btn-h{
 	float: right;
 	right: 0;
 	position: relative;
@@ -227,4 +226,17 @@ footer{
 	font-size: 80px;
 	z-index: 10;
 	text-shadow: 1px 2px 1px rgba(0,0,0,.50);
+}
+
+#errorlogin{
+	position: relative;
+	width: 400px;
+	background: #af4c4c;
+	height: auto;
+	float: right;
+	top: 60px;
+	left: 0px;
+	text-align: center;
+	font-size: 18px;
+	margin: 0px auto;
 }

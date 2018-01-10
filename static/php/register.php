@@ -22,7 +22,6 @@ else{
 
 $email = $email5;
 $senha = $senha5;
-$user = $user5;
 $nome = $nome5;
 $sobrenome = $sobrenome5;
 $inisession = date('Y-m-d');
@@ -43,7 +42,7 @@ try {
     VALUES ('$email', '$senha', '$inisession', '$datec', '$lastlogin', '$nome5', '$sobrenome5')";
     // use exec() because no results are returned
     $conn->exec($sql);
-    echo "Cadastrado com sucesso";
+    echo "Cadastrado com sucesso, faça o login";
     }
 catch(PDOException $e)
     {
