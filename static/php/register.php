@@ -2,7 +2,6 @@
 require 'db.php';
 $email5 = trim($_POST['email']);
 $senha5 = trim(sha1($_POST['senha']));
-$user5 = trim($_POST['usuario']);
 $nome5 = $_POST['nome'];
 $sobrenome5 = trim($_POST['sobrenome']);
 
