@@ -17,12 +17,14 @@
 	<input class="btn-h" type="submit" id="login" value="Logar"/>
 	<input class="inp-h" id="email-h" type="password" placeholder="Senha"/>
 	<input class="inp-h" id="senha-h" type="email" placeholder="E-mail"/>
-	<div id="errorlogin">
-		Login ou senha incorretos
-	</div>
 	</div>
 </header>
 	<!-- End Header -->
+<cemter>
+	<div id="errorlogin">
+		Login ou senha incorretos
+	</div>
+</cemter>
 
 <!-- Begin Main -->
 <div id="overflow"></div>
